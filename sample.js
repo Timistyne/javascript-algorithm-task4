@@ -24,8 +24,9 @@ function checkYuGiOh(n) {
             console.log('gi');
         } else if(i % 5 === 0) {
             console.log('oh');
-        }
-
+        } else {
+            console.log(i);
+        } 
         if (i % 2 === 0 && i % 3 === 0) {
             console.log('yu-gi');
         } else if (i % 2 === 0 && i % 5 === 0) {
@@ -35,7 +36,6 @@ function checkYuGiOh(n) {
         } else if (i % 2 === 0 && i % 3 === 0 && i % 5 === 0) {
             console.log('yu-gi-oh');
         } else {
-            console.log(i);
             
         } 
         
